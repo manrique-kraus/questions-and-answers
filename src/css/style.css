@@ -1,0 +1,34 @@
+body {
+    background-color: hsl(0, 0%, 81%);
+}
+
+.box {
+    border-radius: 10px;
+}
+
+.box-daniel {
+    background-color: hsl(263, 55%, 52%);
+    width: 580px;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 300px;
+    background-image: url('./bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: 70% 0%;
+}
+
+.photo {
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.photo-patrick {
+    border: 1px solid hsl(263, 55%, 52%);
+}
+
+.names {
+    margin-left: 110px;
+    margin-top: -50px;
+}
