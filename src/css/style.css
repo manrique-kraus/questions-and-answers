@@ -1,5 +1,7 @@
 body {
     background-color: hsl(0, 0%, 81%);
+    overflow: hidden;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 .box {
@@ -8,13 +10,14 @@ body {
 
 .box-daniel {
     background-color: hsl(263, 55%, 52%);
-    width: 580px;
+    width: 600px;
     margin-left: 20px;
-    margin-top: 10px;
-    height: 300px;
+    margin-top: 18px;
+    height: 290px;
     background-image: url('./bg-pattern-quotation.svg');
     background-repeat: no-repeat;
-    background-position: 70% 0%;
+    background-position: 80% 0%;
+    background-size: 130px;
 }
 
 .photo {
@@ -22,6 +25,8 @@ body {
     border: 1px solid hsl(0, 0%, 100%);
     margin-left: 35px;
     margin-top: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 .photo-patrick {
@@ -29,6 +34,133 @@ body {
 }
 
 .names {
-    margin-left: 110px;
-    margin-top: -50px;
+    margin-left: 95px;
+    margin-top: -44px;
+}
+
+.name {
+    font-size: 14px;
+}
+
+.verification {
+    font-size: 13px;
+}
+
+.title {
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.content {
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.title-daniel {
+    margin-right: 15px;
+}
+
+.content-daniel {
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 15px;
+}
+
+.box-jeannete {
+    background-color: hsl(0, 0%, 100%);
+    width: 270px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+
+.title-jeannete {
+    margin-right: 15px;
+}
+
+.content-jeannete {
+    margin-right: 15px;
+}
+
+.box-jonathan {
+    background-color: hsl(217, 19%, 35%);
+    width: 310px;
+    height: 300px;
+    position: relative;
+    top: -608px;
+    margin-left: 680px;
+}
+
+.title-jonathan {
+    margin-right: 15px;
+}
+
+.content-jonathan {
+    margin-right: 15px;
+}
+
+.box-kira {
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    margin-left: 1040px;
+    width: 250px;
+    height: 600px;
+    top: -908px;
+}
+
+.title-kira {
+    margin-right: 15px;
+}
+
+.content-kira {
+    margin-right: 25px;
+}
+
+.box-patrick {
+    background-color: hsl(219, 29%, 14%);
+    position: relative;
+    top: -1200px;
+    width: 672px;
+    height: 300px;
+    margin-left: 320px;
+}
+
+.photo-patrick {
+    border: 1px solid hsl(263, 55%, 52%);
+}
+
+.content {
+    color: hsl(0, 0%, 81%);
+}
+
+.verification {
+    color: hsl(0, 0%, 81%);
+}
+
+.name {
+    color: hsl(0, 0%, 81%);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.title {
+    font-size: 19px;
+    font-weight: 600;
+    color: hsl(210, 46%, 95%);
+}
+
+.title-jeannete {
+    color: hsl(219, 29%, 14%);
+}
+
+.name-jeannete {
+    color: hsl(219, 29%, 14%);
+}
+
+.title-kira {
+    color: hsl(219, 29%, 14%);
+}
+
+.name-kira {
+    color: hsl(219, 29%, 14%);
 }
