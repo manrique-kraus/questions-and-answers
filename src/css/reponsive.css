@@ -1,3 +1,50 @@
 @media (max-width: 375px) {
 
+    body {
+        overflow: scroll;
+    }
+
+    .box {
+        width: 300px;
+        margin-left: 22px;
+        margin-right: 8px;
+    }
+
+    .box-daniel {
+        height: 440px;
+    }
+
+    .box-jeannete {
+        position: relative;
+        top: 370px;
+        height: 320px;
+    }
+
+    .box-jonathan {
+        position: relative;
+        margin-top: 300px;
+        height: 325px;
+    }
+
+    .box-kira {
+        position: relative;
+        top: 255px;
+        margin-bottom: -160px;
+        height: 500px;
+    }
+
+    .box-patrick {
+        position: relative;
+        top: -560px;
+        height: 440px;
+    }
+
+    .title-patrick {
+        margin-right: 10px;
+    }
+
+    .content-patrick {
+        margin-right: 20px;
+    }
+
 }
